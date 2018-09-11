@@ -1,0 +1,98 @@
+:root {
+  --primary-color: rgba(244, 67, 54, 1);
+  --secondary-color: #000000;
+  --text-color-white: rgba(255, 255, 255, 1);
+  --color-blue: rgba(63, 81, 181, 1);
+}
+
+@media(min-width : 300px){
+  .coffee::selection {
+    background-color: var(--secondary-color);
+    color: var(--text-color-white);
+  }
+  
+  .connect::selection {
+    background-color: var(--secondary-color);
+    color: var(--text-color-white);
+  }
+  
+  .connect{
+    text-align: center;
+  }
+  
+  .contact-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 65rem;
+  }
+  
+  .coffee {
+    color: var(--secondary-color);
+    font-size: 3.5rem;
+    font-weight: bolder;
+    text-align: center;
+  }
+  
+  .social-link-icons {
+    font-size: 3.54rem;
+  }
+  
+  .social-links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .mail {
+    font-size: 3.54rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .coffee::selection {
+    background-color: var(--secondary-color);
+    color: var(--text-color-white);
+  }
+
+  .connect::selection {
+    background-color: var(--secondary-color);
+    color: var(--text-color-white);
+  }
+
+  .contact-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 55rem;
+  }
+
+  .coffee {
+    color: var(--secondary-color);
+    padding-top: 3rem;
+    font-size: 3.5rem;
+    font-weight: bolder;
+  }
+
+  .social-link-icons {
+    font-size: 5rem;
+  }
+
+  .social-links-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mail {
+    font-size: 5.7rem;
+  }
+}

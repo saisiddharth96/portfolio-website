@@ -1,0 +1,11 @@
+:root {
+  --primary-color: rgba(244, 67, 54, 1);
+  --secondary-color: rgba(0, 0, 0, 1);
+  --text-color-white: rgba(255, 255, 255, 1);
+  --color-blue: rgba(63, 81, 181, 1);
+}
+
+.main-app-container{
+  width: 100%;
+  margin: 0;
+}
